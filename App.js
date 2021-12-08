@@ -136,8 +136,8 @@ productos.push(producto30);
             info += "<article class='producto'>"
             info += "<div class='titulo'> <h3>"+productos[i].titulo+"</h3> </div>";  
             info += "<img class='imagen' src='"+productos[i].URLimage+"'>";
-            info += "<p class='descripcion'>"+productos[i].descripcion +"</p>";
-            info += "<h2 class='precio'> $ "+productos[i].precio+"</h2>";
+            //info += "<p class='descripcion'>"+productos[i].descripcion +"</p>";
+            //info += "<h2 class='precio'> $ "+productos[i].precio+"</h2>";
             info += "</article>";
         }
     
